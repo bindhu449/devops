@@ -12,3 +12,4 @@ change 2 in local
 =======
 change1 in remote
 
+change 4 in local
