@@ -17,5 +17,8 @@ change 4 in local
 =======
 change3 in remote
 
+<<<<<<< HEAD
 
 changes5 in local
+=======
+change6 in remote
