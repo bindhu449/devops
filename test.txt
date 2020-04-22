@@ -1,7 +1,15 @@
  im a trainee
 
  hello listen
+<<<<<<< HEAD
 
  hi charan
-
  im
+
+ 
+ im editing the code for practice
+ 
+ checkitout
+ 
+ hello
+
