@@ -1,17 +1,23 @@
 pipeline{
    agent any
+   tools {
+      maven 'maven'
+      jdk 'JAVA_HOME'
+   }
    stages {
-    stage ("build")
+    stage ('build')
       {
       steps {
-      echo "build the application"
+      echo "building a maven project"
+         sh 'mvn compile'
       }
 
 }  
- stage ("test")
+ stage ('test')
       {
       steps {
-      echo "test the application"
+      echo "testing"
+         sh 'mvn test'
       }
 
 }  
